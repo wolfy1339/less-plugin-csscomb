@@ -13,25 +13,19 @@
         "type": "git",
         "url": "https://github.com/bassjobsen/less-plugin-csscomb.git"
     },
-    "licenses": [
-        {
-            "type": "Apache v2",
-            "url": "https://github.com/bassjobsen/less-plugin-csscomb/blob/master/LICENSE"
-        }
-    ],
+    "license": "Apache-2.0",
     "main": "lib/index.js",
     "engines": {
         "node": ">=0.4.2"
     },
-	"dependencies": {
-		"csscomb-core": "~2.0.4",
-        "csscomb": "~3.0.4"
-	},
-    "devDependencies": {
+    "dependencies": {
+        "csscomb-core": "^2.0.4",
+        "csscomb": "^3.1.8"
     },
+
     "keywords": [
         "less plugins",
-		"csscomb",
-		"less prefixes"
+        "csscomb",
+        "less prefixes"
     ]
 }
