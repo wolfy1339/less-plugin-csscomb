@@ -34,7 +34,7 @@ lessc file.less --csscomb="config/test.json"
 
 ## Programmatic usage
 
-```
+```javascript
 var LessPluginCSScomb = require('less-plugin-csscomb'),
     csscombPlugin = new LessPluginCSScomb("zen");
 less.render(lessString, { plugins: [csscombPlugin] })
