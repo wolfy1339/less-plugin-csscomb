@@ -1,31 +1,36 @@
 {
-    "name": "less-plugin-csscomb",
-    "version": "0.0.2",
-    "description": "CSScomb plugin for less.js",
-    "homepage": "https://github.com/bassjobsen/less-plugin-csscomb/",
-    "author": {
-        "name": "Bass Jobsen"
-    },
-    "bugs": {
-        "url": "https://github.com/bassjobsen/less-plugin-csscomb/issues"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/bassjobsen/less-plugin-csscomb.git"
-    },
-    "license": "Apache-2.0",
-    "main": "lib/index.js",
-    "engines": {
-        "node": ">=0.4.2"
-    },
-    "dependencies": {
-        "csscomb-core": "^3.0.6",
-        "csscomb": "^3.1.7"
-    },
-
-    "keywords": [
-        "less plugins",
-        "csscomb",
-        "less prefixes"
-    ]
+  "name": "less-plugin-csscomb",
+  "version": "0.0.2",
+  "description": "CSScomb plugin for less.js",
+  "homepage": "https://github.com/bassjobsen/less-plugin-csscomb/",
+  "author": {
+    "name": "Bass Jobsen"
+  },
+  "bugs": {
+    "url": "https://github.com/bassjobsen/less-plugin-csscomb/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bassjobsen/less-plugin-csscomb.git"
+  },
+  "license": "Apache-2.0",
+  "main": "lib/index.js",
+  "engines": {
+    "node": ">=0.4.2"
+  },
+  "dependencies": {
+    "csscomb-core": "^3.0.6",
+    "csscomb": "^4.0.0",
+    "snyk": "^1.42.6"
+  },
+  "keywords": [
+    "less plugins",
+    "csscomb",
+    "less prefixes"
+  ],
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
