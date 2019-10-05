@@ -21,7 +21,7 @@
   "dependencies": {
     "csscomb-core": "^3.0.6",
     "csscomb": "^4.0.0",
-    "snyk": "^1.42.6"
+    "snyk": "^1.231.0"
   },
   "keywords": [
     "less plugins",
